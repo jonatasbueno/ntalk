@@ -7,11 +7,8 @@
 </head>
 
 <body>
-  <header>
-    <h1>Ntalk</h1>
-    <h4>Bem vindo !</h4>
-  </header>
-
+  <% include ../header.ejs %>
+  
   <section>
     <form action="/entrar" method="post">
       <input type="text" name="usuario[nome]" placeholder="Nome" />
@@ -22,9 +19,7 @@
     </form>
   </section>
 
-  <footer>
-    <small>Ntalk - Agenda de contatos</small>
-  </footer>
+  <% include ../footer.ejs %>
 </body>
 
 </html>

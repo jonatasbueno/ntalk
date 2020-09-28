@@ -5,3 +5,4 @@ Agenda de contatos integrada em um web chat real-time
 - Express (framework para aplicação web) 
 - EJS (template engine)
 - Consign (script loading)
+- Express Session (session generate)

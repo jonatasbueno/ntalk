@@ -6,3 +6,4 @@ Agenda de contatos integrada em um web chat real-time
 - EJS (template engine)
 - Consign (script loading)
 - Express Session (session generate)
+- Method Override (permitir que um rota receba distintos métodos HTTP)

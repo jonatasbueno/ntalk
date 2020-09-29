@@ -21,11 +21,11 @@
     </thead>
     <tbody>
       <% contatos.forEach((contato, index) => { %>
-      <tr>
-        <td><%- contato.nome %></td>
-        <td><%- contato.email %></td>
-        <td><a href="/contato/<%- index %>">Detalhes</a></td>
-      </tr>
+        <tr>
+          <td><%- contato.nome %></td>
+          <td><%- contato.email %></td>
+          <td><a href="/contato/<%- index %>">Detalhes</a></td>
+        </tr>
       <% }) %>
     </tbody>
   </table>
